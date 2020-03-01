@@ -1,0 +1,37 @@
+{{> header/header}}
+{{!-- Here we will be able to CRUD customers
+        I imagine a table of customers
+        Can edit by clicking a cell and just typing a new thing 
+        and saving
+        yayaa?
+
+ --}}
+<h2>Manage Service Requests</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Street Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>ZipCode</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Customer ID</th>
+        <th>Service ID</th>
+    </tr>
+    {{#each requests}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{status}}</td>
+        <td>{{streetAddress}}</td>
+        <td>{{city}}</td>
+        <td>{{state}}</td>
+        <td>{{zipCode}}</td>
+        <td>{{startTime}}</td>
+        <td>{{endTime}}</td>
+        <td>{{CustomerId}}</td>
+        <td>{{ServiceMenuId}}</td>
+    </tr>
+    {{/each}}
+</table>

@@ -1,0 +1,14 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">{{#if title}}{{title}}{{else}}Handyman R.A.D.{{/if}}</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="/">Home</a></li> {{!-- this will logout the user --}}
+            {{#unless isHandy}}<li><a href="/service-menu">Schedule Service</a></li>{{/unless}}
+            <li><a href="/update-service">Service Requests</a></li>
+            <li><a href="/user-info">User Info</a></li>
+            {{#unless isHandy}}<li><a href="/login">Logout</a></li>{{/unless}}
+            {{#if isHandy}}<li><a href="/handyman-login">Logout</a></li>{{/if}}
+            {{#if isAdmin}}{{> admin/admin-link }}{{/if}}
+        </ul>
+    </div>
+</nav>

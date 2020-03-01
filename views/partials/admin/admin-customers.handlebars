@@ -1,0 +1,31 @@
+{{> header/header}}
+{{!-- Here we will be able to CRUD customers
+        I imagine a table of customers
+        Can edit by clicking a cell and just typing a new thing 
+        and saving
+        yayaa?
+
+ --}}
+<h2>Manage Customers</h2>
+<table>
+    <tr>
+        <th></th>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Admin</th>
+        <th>UserID</th>
+        <th>Username</th>
+    </tr>
+    {{#each users}}
+    <tr>
+        <td><a href="/admin/customers/{{id}}">Edit</a></td>
+        <td>{{id}}</td>
+        <td>{{firstName}}</td>
+        <td>{{lastName}}</td>
+        <td>{{#if this.User.isAdmin}}Admin{{else}}Not Admin{{/if}}</td>
+        <td>{{this.User.id}}</td>
+        <td>{{this.User.username}}</td>
+    </tr>
+    {{/each}}
+</table>

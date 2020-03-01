@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS timely_db;
+CREATE DATABASE IF NOT EXISTS timely_db;
+USE timely_db;

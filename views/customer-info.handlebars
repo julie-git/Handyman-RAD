@@ -1,0 +1,37 @@
+{{> header/header }}
+<div class="content-container center-align">
+
+    <div class="content-wrapper-svc">
+        <h2>{{#if isHandy}}HandyMan Information{{else}}Customer Information{{/if}}</h2>
+
+
+    <form role="form" class="updateCustomerForm" enctype="application/x-www-form-urlencoded">
+        <input type="hidden" value={{id}} name="id" id="id">
+        <label class = "left-align">First Name</label>
+        <input type="text" value="{{firstName}}" name="firstName" id="firstName" placeholder="First Name">
+
+            <label>Last Name</label>
+            <input type="text" value="{{lastName}}" name="lastName" id="lastName" placeholder="Last Name">
+
+            <label>Street Address</label>
+            <input type="text" value="{{streetAddress}}" name="streetAddress" id="streetAddress"
+                placeholder="Street Address">
+
+            <label>City</label>
+            <input type="text" value="{{city}}" name="city" id="city" placeholder="City">
+
+            <label>State</label>
+            <input type="text" value="{{state}}" name="state" id="state" placeholder="State">
+
+            <label>Zip Code</label>
+            <input type="text" value="{{zipCode}}" name="zipCode" id="zipCode" placeholder="Zip Code">
+
+            <label>Email</label>
+            <input type="email" value="{{email}}" name="email" id="email" placeholder="Email Address">
+
+            <label>Phone Number</label>
+            <input type="text" value="{{phoneNumber}}" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+            <br>
+            <button type="submit">Update Information</button>
+        </form>
+    </div>

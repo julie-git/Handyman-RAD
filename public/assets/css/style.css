@@ -1,0 +1,247 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-index {
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    background: white;
+    width: 60%;
+    margin-top: 200px;
+}
+
+.content-container {
+    position: absolute;
+    background-image: url("/assets/images/home_interior.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 300px; */
+    color: white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    /* align-items: center; */
+}
+
+.content-wrapper {
+    background: white;
+    width: 80%;
+    min-height: 80vh;
+    display: block;
+    width: fit-content;
+    padding: 1px 30px 0px 30px;
+    position: relative;
+    left: 35%;
+    top: 50%;
+}
+.content-wrapper-svc{
+    background: white;
+    width: 80%;
+    min-height:100vh;
+    display:block;
+    /* width: fit-content;  */
+    padding: 1px 30px 0px 30px;
+    position: relative;
+    left: 10%;
+    top: 50%;
+ }
+
+.content-wrapper-login {
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    /* width: fit-content;    */
+    padding: 50px 30px 0px 30px;
+    position: relative;
+    /* left: 22%; */
+    top: 50%;
+    color: black;
+}
+
+.nav-wrapper{
+    background: #3c6873;
+}
+
+.login-wrapper a{
+   color:black;
+}
+
+.login-wrapper {
+    /* display: flex;
+    flex-flow: column nowrap; */
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 50px 40px 40px 40px;
+    border: 1px solid gray;
+    background: white;
+    color: black;
+    /* width: fit-content; */
+}
+
+.login-wrapper form{
+    width: 300px;
+    width: 30%;
+    margin: 0 auto;
+    /* width: fit-content; */
+}
+
+.login-wrapper h4 {
+    margin-bottom: 50px;
+}
+
+.login-wrapper #submit-login-btn {
+    background-color: #3c6873;
+    width: 80%;
+    margin: 15px;
+    border-radius: 0px;
+}
+
+#reg-submit-btn {
+    background: #3c6873;
+    width: 80%;
+}
+
+#handyreg-submit-btn {
+    background: #3c6873;
+    width: 80%;
+}
+
+#welcome-signup {
+    margin-top: 50px;
+}
+
+#welcome-signup .left{
+    margin-left: 400px;
+}
+
+#welcome-signup .right-top{
+    margin-right: 400px;
+}
+
+#welcome-signup .right-bottom{
+    margin-right: 300px;
+}
+
+
+.content-container i {
+    font-size: 25px;
+}
+
+.welcome-header {
+    background-image: url("/assets/images/home_interior.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 300px;
+    height: 625px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#welcome-text {
+    padding-top: 250px;
+}
+
+#welcome-signup a {
+    color: black;
+    
+}
+
+#selectedService {
+    background-color: azure;
+    border: none;
+}
+
+#addServiceForm {
+    padding: 5px;
+    text-align: left;
+    width: 200px;
+}
+
+#addServiceForm div {
+    padding: 5px;
+    margin: 8px;
+}
+
+#addServiceForm label {
+    font-weight: 800;
+}
+
+#addServiceForm input {
+    border: 1px solid lightskyblue;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+#addServiceSubmitBtn, #submit-login-btn {
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+#servicesDropdown {
+    padding: 2px;
+    margin: 2px;
+}
+
+#serviceCalendar {
+    padding: 2px;
+    margin: 2px;
+}
+
+#calendarSubmit {
+    padding: 4px;
+}
+
+#welcomeMessage {
+    margin: 15px 0;
+    color: white;
+    text-shadow: 2px 2px #899fa6;
+}
+
+.highlight {
+    background: azure;
+}
+
+#timeSlotContainer {
+    display: none;
+}
+
+/* service-menu page */
+ input[type=submit]{
+    background: #3c6873;
+    color:white;
+    width: 80%;
+    padding: 4px;
+} 
+
+button[type=submit]{
+    background: #3c6873;
+    color:white;
+    width: 80%;
+    padding: 4px;
+} 
+.cal-wrapper{
+    margin-bottom: 50px;
+}
+ #calendarSubmit{
+   margin-top: 20px;
+} 
