@@ -2,7 +2,7 @@
 Have a leaky faucet? Is your lawn overdue for a trim? Call upon the services of our RAD Handymen! Resource Assignment Directory is here to help your everyday needs around the house or apartment or condo or castle. RAD features support for secure authentication to connect Customers directly with their Handymen and Handywomen! Customers can create Service Requests through the App after signing up (we do not share user information, user is in complete control of their data). Handymen can view their daily assignments after logging in through their separate login link. Authentication is delivered through bcryptjs, jsonwebtoken and express-session. 
 
 ## Github Pages URL
-[RAD Demo](https://rad-prototype.herokuapp.com/user-info)
+[RAD Demo](https://handyman-rad.herokuapp.com/)
 
 ## Installation
 
